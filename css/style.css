@@ -1,0 +1,345 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* global */
+* {
+  box-sizing: border-box;
+}
+
+.container, .row {
+  height: 100%;
+}
+
+section {
+  padding: 110px 0px;
+}
+
+p, h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.h2-subheader {
+  font-family: "IBM Plex Serif", serif;
+  color: #777777;
+}
+
+.headings-container {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 68px;
+}
+
+/* buttons */
+body, html {
+  height: 100%;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  background: #fdd135;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 48px;
+  text-decoration: none;
+}
+
+/* menu */
+nav {
+  position: absolute;
+  padding: 46px 0px;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  gap: 30px;
+}
+
+.menu a {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-holder {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.logo {
+  font-size: 30px;
+  color: gold;
+}
+
+/* splash */
+.splash {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/splash-background-image.png");
+  height: 90vh;
+  padding-top: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.splash .container .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+}
+
+.splash .container .row .flex-item {
+  width: 100%;
+  text-align: center;
+  margin: 17px 0px;
+}
+
+.title {
+  color: #fff;
+}
+
+.subtitle h2 {
+  font-size: 40px;
+  color: #fff;
+  font-family: "IBM Plex Serif", serif;
+}
+
+.splash-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* services */
+.services img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.services .service {
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.service .flex-item {
+  width: 100%;
+  text-align: center;
+}
+
+.service {
+  padding: 0px 10px;
+}
+
+.service-description {
+  font-family: "IBM Plex Serif", serif;
+  color: #777777;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* Our portfolio */
+.our-portfolio {
+  background: #f7f7f7;
+}
+
+.our-portfolio .portfolio-item {
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+  margin: 0px 3px 50px 3px;
+}
+
+.portfolio-item .flex-item {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+.portfolio-item h3 {
+  margin-bottom: 7px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 400px;
+}
+
+.portfolio-description {
+  font-family: "IBM Plex Serif", serif;
+  color: #777777;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.portfolio-title-container {
+  padding-top: 20px;
+}
+
+.portfolio-description-container {
+  padding-bottom: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #fff;
+  height: 100px;
+}
+
+footer .row .row {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.copyright-info-container {
+  width: 100%;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer li {
+  font-size: 0px;
+  margin-right: 10px;
+}
+
+.rounded-button {
+  width: 40px;
+  height: 40px;
+  background: #000;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 1s;
+}
+
+@media (max-width: 768px) {
+  nav .logo {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  nav .menu {
+    justify-content: center;
+  }
+  .splash {
+    height: 100vh;
+    padding-top: 130px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .subtitle h2 {
+    font-size: 25px;
+  }
+  .service {
+    margin-bottom: 30px;
+  }
+  .our-portfolio {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .copyright-info-container {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxVQUFBO0FBQ0E7Ozs7Ozs7Ozs7Ozs7RUFhQyxTQUFBO0VBQ0EsVUFBQTtFQUNBLFNBQUE7RUFDQSxlQUFBO0VBQ0EsYUFBQTtFQUNBLHdCQUFBO0FDQ0Q7O0FEQ0EsZ0RBQUE7QUFDQTs7RUFFQyxjQUFBO0FDRUQ7O0FEQUE7RUFDQyxjQUFBO0FDR0Q7O0FEREE7RUFDQyxnQkFBQTtBQ0lEOztBREZBO0VBQ0MsWUFBQTtBQ0tEOztBREhBOztFQUVDLFdBQUE7RUFDQSxhQUFBO0FDTUQ7O0FESkE7RUFDQyx5QkFBQTtFQUNBLGlCQUFBO0FDT0Q7O0FESkEsV0FBQTtBQUNBO0VBQ0Msc0JBQUE7QUNPRDs7QURKQTtFQUNDLFlBQUE7QUNPRDs7QURKQTtFQUNDLGtCQUFBO0FDT0Q7O0FESkE7RUFDQyxxQ0FBQTtBQ09EOztBREpBO0VBQ0MsZUFBQTtFQUNBLGlCQUFBO0VBQ0EseUJBQUE7QUNPRDs7QURKQTtFQUNDLGVBQUE7RUFDQSxpQkFBQTtFQUNBLHlCQUFBO0VBQ0EsbUJBQUE7QUNPRDs7QURKQTtFQUNDLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0FDT0Q7O0FESkE7RUFDQyxvQ0FBQTtFQUNBLGNBQUE7QUNPRDs7QURKQTtFQUNDLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLG1CQUFBO0FDT0Q7O0FESEEsWUFBQTtBQUVBO0VBQ0ksWUFBQTtBQ0tKOztBRERBO0VBQ0MscUNBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSx5QkFBQTtFQUNBLFdBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUJBQUE7QUNJRDs7QUREQSxTQUFBO0FBQ0E7RUFDQyxrQkFBQTtFQUNHLGlCQUFBO0VBQ0gsV0FBQTtBQ0lEOztBRERBO0VBQ0ksYUFBQTtFQUNILG1CQUFBO0VBQ0EsZUFBQTtFQUNBLHlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxxQkFBQTtFQUNBLFlBQUE7RUFDQSxTQUFBO0FDSUQ7O0FEREE7RUFDQyx5QkFBQTtFQUNBLHFDQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0VBQ0EsV0FBQTtFQUNBLHFCQUFBO0FDSUQ7O0FEREE7RUFDQyxtQkFBQTtFQUNBLHVCQUFBO0FDSUQ7O0FEREE7RUFDQyxlQUFBO0VBQ0EsV0FBQTtBQ0lEOztBREFBLFdBQUE7QUFDQTtFQUNDLHVIQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtFQUNBLDRCQUFBO0FDR0Q7O0FEQUE7RUFDQyxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtFQUNBLHFCQUFBO0VBQ0EsWUFBQTtBQ0dEOztBREFBO0VBQ0MsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7QUNHRDs7QURBQTtFQUNDLFdBQUE7QUNHRDs7QURBQTtFQUNDLGVBQUE7RUFDQSxXQUFBO0VBQ0Esb0NBQUE7QUNHRDs7QURBQTtFQUNDLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0FDR0Q7O0FEQUEsYUFBQTtBQUVBO0VBQ0MsWUFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQ0VEOztBRENBO0VBQ0MsbUJBQUE7RUFDQSxtQkFBQTtFQUNBLHFCQUFBO0VBQ0EsdUJBQUE7QUNFRDs7QURDQTtFQUNDLFdBQUE7RUFDQSxrQkFBQTtBQ0VEOztBRENBO0VBQ0MsaUJBQUE7QUNFRDs7QURDQTtFQUNDLG9DQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtBQ0VEOztBRENBLGtCQUFBO0FBRUE7RUFDQyxtQkFBQTtBQ0NEOztBREVBO0VBQ0MsbUJBQUE7RUFDQSxtQkFBQTtFQUNBLHlCQUFBO0VBQ0EsdUJBQUE7RUFDQSx3QkFBQTtBQ0NEOztBREVBO0VBQ0MsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7QUNDRDs7QURFQTtFQUNDLGtCQUFBO0FDQ0Q7O0FERUE7RUFDQyxXQUFBO0VBQ0EsYUFBQTtBQ0NEOztBREVBO0VBQ0Msb0NBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0FDQ0Q7O0FERUE7RUFDQyxpQkFBQTtBQ0NEOztBRENBO0VBQ0Msb0JBQUE7QUNFRDs7QURDQSxXQUFBO0FBRUE7RUFDQyxzQkFBQTtFQUNBLGFBQUE7QUNDRDs7QURHQTtFQUNDLHNCQUFBO0VBQ0EsZUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxxQkFBQTtBQ0FEOztBREdBO0VBQ0MsV0FBQTtBQ0FEOztBREdBO0VBQ0ksa0JBQUE7QUNBSjs7QURHQTtFQUNJLGVBQUE7QUNBSjs7QURHQTtFQUNJLGNBQUE7RUFDQSxrQkFBQTtBQ0FKOztBREdBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7RUFDQSxnQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0VBQ0EscUJBQUE7RUFDQSxlQUFBO0VBQ0EsY0FBQTtBQ0FKOztBREdFO0VBQ0Q7SUFDQyxrQkFBQTtJQUNBLFdBQUE7SUFDQSxtQkFBQTtFQ0FBO0VER0Q7SUFDQyx1QkFBQTtFQ0RBO0VESUQ7SUFDQyxhQUFBO0lBQ0Esa0JBQUE7RUNGQTtFREtEO0lBQ0MsZUFBQTtFQ0hBO0VETUQ7SUFDQyxlQUFBO0VDSkE7RURRRDtJQUNDLG1CQUFBO0VDTkE7RURTRDtJQUNDLGlCQUFBO0lBQ0Esa0JBQUE7RUNQQTtFRFVEO0lBQ0Msa0JBQUE7RUNSQTtBQUNGIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
